@@ -10,7 +10,7 @@ class Node
 public:
     int val;
     Node *next;
-    Node(int x) : val(x) {}
+    Node(int x) : val(x), next(nullptr) {}
 };
 
 Node *ReverseList(Node *head)
@@ -46,5 +46,6 @@ int main()
         cur1 = next;
     }
     cout << endl;
+    // delete释放内存
     return 0;
 }
