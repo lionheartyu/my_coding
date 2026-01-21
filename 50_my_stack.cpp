@@ -2,6 +2,18 @@
 #include <queue>
 using namespace std;
 
+// 题目描述：
+// 请你仅使用两个队列实现一个栈。栈应支持以下操作：push(x) —— 将元素 x 压入栈顶；
+// pop() —— 移除并返回栈顶元素；top() —— 返回栈顶元素；empty() —— 返回栈是否为空。
+
+// 示例：
+// MyStack st;
+// st.push(1);
+// st.push(2);
+// st.top();    // 返回 2
+// st.pop();    // 返回 2
+// st.empty();  // 返回 false
+
 class MyStack
 {
 public:
